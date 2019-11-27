@@ -34,3 +34,10 @@ exports.smartphone_update = function (req, res) {
         res.send('Smartphone udpated.');
     });
 };
+
+exports.smartphone_delete = function (req, res) {
+    Smartphone.findByIdAndRemove(req.params.id, function (err) {
+        if (err) return next(err);
+        res.send('Deleted successfully!');
+    })
+};
