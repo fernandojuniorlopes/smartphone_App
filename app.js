@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use('/smartphones', smartphone);
 
-let port = 1235;
+let port = 1234;
 
 app.listen(port, () => {
     console.log('Server is up and running on port number ' + port);
