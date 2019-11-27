@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 let SmartphoneSchema = new Schema({
     name: {type: String, required: true, max: 100},
-    brand: {type: String, required: true},
+    brand: {type: String, required: true, max: 100},
 });
 
 
