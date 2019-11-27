@@ -1,0 +1,19 @@
+{
+  "name": "smartphones_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandojuniorlopes/smartphone_App.git"
+  },
+  "author": "Fernando Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandojuniorlopes/smartphone_App/issues"
+  },
+  "homepage": "https://github.com/fernandojuniorlopes/smartphone_App#readme"
+}
