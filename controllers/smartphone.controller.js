@@ -27,3 +27,10 @@ exports.smartphone_details = function (req, res) {
         res.send(smartphone);
     })
 };
+
+exports.smartphone_update = function (req, res) {
+    Smartphone.findByIdAndUpdate(req.params.id, {$set: req.body}, function (err, smartphone) {
+        if (err) return next(err);
+        res.send('Smartphone udpated.');
+    });
+};

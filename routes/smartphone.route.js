@@ -7,4 +7,5 @@ const smartphone_controller = require('../controllers/smartphone.controller');
 router.get('/test', smartphone_controller.test);
 router.post('/create', smartphone_controller.smartphone_create);
 router.get('/:id', smartphone_controller.smartphone_details);
+router.put('/:id/update', smartphone_controller.smartphone_update);
 module.exports = router;
